@@ -89,8 +89,7 @@ if($_POST){
 
         var not=function(){
             window.history.replaceState(null,null, window.location.pathname);
-
-    
+   
                 }       
         setTimeout(not, 0)    
 
