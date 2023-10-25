@@ -1,0 +1,47 @@
+
+.etiqueta{
+
+    margin: 3rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 2rem;
+}
+.productos{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 9    0%;
+    margin-top: 2rem;
+    border-radius: 10px;
+
+    background-color: #E7ECEE;
+    box-shadow: 3px 7px #969C9F;
+
+}
+
+.nombreZapato{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.imgZapatos{
+
+    width: 20rem;
+    margin: 0 0 0 1.7rem;
+    border-radius: 10px;
+
+
+}
+
+
+.precioImg{
+    margin-left: 2rem;
+
+}
+.tallaImg{
+    margin-left: 2rem;
+    
+}
