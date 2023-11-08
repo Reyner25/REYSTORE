@@ -1,0 +1,64 @@
+
+.etiqueta{
+
+    margin: 1rem 5rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem 30rem ;
+    gap: 3rem;
+    justify-content: center;
+
+/* Al hacer el evento de hover todo el elemento de productos se sobre pone sobre la barra de navegacion  por eso el z-index  */
+    z-index: -10;
+
+}
+.productos{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 480px;
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+
+   /*  background-color: #D7E4EA;
+   box-shadow: 3px 7px #969C9F;*/
+
+    cursor: pointer;
+    transition: 0.5s; 
+
+    overflow: hidden;
+
+    /* Al hacer el evento de hover todo el producto se sobre pone sobre la barra de navegacion */
+   
+
+}
+
+.productos:hover{
+
+    scale: 1.1;
+    
+}
+
+.imgZapatos{
+
+    width: 99%;
+    height: 25rem;
+    margin: 0rem auto;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.nombreZapato{
+    width: 100%;
+   
+}
+
+.precioImg{
+    margin-top: -10px;
+}
+
+.tallaImg{
+
+    margin-top: -9px;
+}
